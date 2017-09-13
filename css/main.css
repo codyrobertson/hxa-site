@@ -1,0 +1,133 @@
+/* Mobile first queries */
+
+html {
+    overflow-x: none;
+    overflow: hidden;
+}
+
+
+/* Larger than mobile */
+
+@media (min-width: 400px) {
+    .nav {
+        padding-left: 1% !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .nav {
+        padding-left: auto;
+    }
+}
+
+
+/* Larger than phablet */
+
+@media (min-width: 550px) {
+    .nav {
+        padding-left: 1% !important;
+    }
+}
+
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {
+    .nav {
+        padding-left: 7% !important;
+    }
+}
+
+
+/* Larger than desktop */
+
+@media (min-width: 1000px) {
+    .nav {
+        margin-left: -130px;
+    }
+}
+
+
+/* Larger than Desktop HD */
+
+@media (min-width: 1200px) {}
+
+ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+.nav-link a {
+    font-family: "Harmonia-Sans", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration-style: none;
+    color: white;
+}
+
+.nav-link a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.nav {
+    vertical-align: middle;
+    width: 98%;
+    display: flex;
+    padding-top: 10px;
+}
+
+ul img.inline-logo {
+    display: inline-flex;
+    height: 38px !important;
+    width: auto;
+}
+
+body {
+    background-color: #783CBD;
+}
+
+div.content-area {
+    display: block;
+    padding-top: 22vh;
+    width: inherit;
+}
+
+h1 {
+    color: white;
+    font-weight: bold !important;
+    font-family: "Harmonia-Sans", Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: "Harmonia-Sans", Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: auto;
+    width: 70ch !important;
+    word-wrap: break-word;
+    font-size: 14px;
+    font-weight: 400 !important;
+}
+
+.content-block {
+    overflow: none;
+    margin-right: 50px !important;
+    display: block;
+}
+
+.img-hero {
+    width: 100%;
+    margin-left: 35% !important;
+    vertical-align: middle;
+    height: 100px !important;
+    padding-top: 40px !important;
+    display: block;
+}
