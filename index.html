@@ -4,54 +4,224 @@
 <head>
     <title>hxa design</title>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="a blockchain design and marketing agency">
     <meta name="keywords" content="blockchain,block chain design,crypto marketing,ICO design">
     <meta name="author" content="HXA">
+    <!-- Style Sheets -->
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/skeleton.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.bootcss.com/hover.css/2.1.1/css/hover-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css" />
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Javascript -->
+
+
+
 </head>
 
-<body>
-    <section class="bg-purple">
-        <section class=container "nav-container">
-            <div class="row">
-                <div class="nav twelve columns">
-                    <ul class="nav nav-purple pull-left u-full-width">
-                        <img class="inline-logo sm" src="img/logo-blue.svg" height="38px">
-                        <li class="nav-link"><a href="#home">Clients</a></li>
-                        <li class="nav-link"><a href="#news">News</a></li>
-                        <li class="nav-link"><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
+<body class="full el-bg--purple">
+
+    <!-- Navigation -->
+    <nav id="menu" data-end="background-color:rgb(0,0,255);transform[bounce]:rotate(0deg);" class="navbar navbar-transparent" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"> <object type="image/svg+xml" data="img/logo-blue.svg" height="30px" class="logo hvr-shrink">
+                    
+                </object></a>
             </div>
-        </section>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right ">
 
-    </section>
-    <section class="content">
-        <div class="container content-area">
-            <div class="row">
-                <div class="six columns">
-                    <div class="content-block">
-                        <h1> hxa design, </h1>
-                        <p> hxa is a design & marketing agency for blockchain companies. </p>
+                    <li data-menu-anchor="contact">
+                        <a class="el-color--white hvr-grow" style="margin-top:5px;" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <div id="fullpage">
+        <div class="section full" id="home">
 
-                        <p>We believe that blockchain is the technology of the future and our greatest opportunity to improve the way people live and communicate. </p>
-                        <p> We empower companies to thrive, stand-out amongst the crowd, better communicate theirselves, and have have the greatest shot at success.</p>
-                        </p>
-                    </div>
-                </div>
-                <div class="container img-hero">
-                    <div class="row">
-                        <div class="six columns u-pull-right">
-                            <img src="img/logo-circle.svg" height="200px">
+            <div class="container" style="margin-top: 1%; margin-bottom: 5%;">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="el-color--white">
+                            <h3> hxa design, </h1>
+                                <p> hxa is a design & marketing agency for blockchain companies. </p>
+
+                                <p>We believe that blockchain is the technology of the future and our greatest opportunity to improve the way people live and communicate. </p>
+                                <p> We empower companies to thrive, stand-out amongst the crowd, better communicate themselves, and to have the greatest shot at success.</p>
+                                </p>
                         </div>
 
                     </div>
+
+
+                    <div class="col-md-offset-9">
+                        <div class="el-color--white">
+                            <img src="img/logo-circle.svg" class="hvr-grow" height="200px">
+                        </div>
+                    </div>
                 </div>
-
-
             </div>
         </div>
-    </section>
+
+
+        <div class="section" style="height: 100vh; margin-top: -10px;" id="contact">
+            <!-- Contact -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="el-color--black">
+                            <h3> Contact Us </h1>
+                                <p> hxa is a design & marketing agency for blockchain companies. </p>
+
+                                <p>We believe that blockchain is the technology of the future and our greatest opportunity to improve the way people live and communicate. </p>
+                                <p> We empower companies to thrive, stand-out amongst the crowd, better communicate themselves, and to have the greatest shot at success.</p>
+                                </p>
+
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <label for="exampleInputName2">Name</label>
+                                        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail2">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                                    </div>
+                                    <button type="submit" class="btn btn-default">Send invitation</button>
+                                </form>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-offset-9">
+                        <div class="el-color--white">
+                            <img src="img/logo-chat.svg" class="hvr-rotate" height="200px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                //Navigation
+                menu: '#menu',
+                lockAnchors: true,
+                anchors: ['home', 'contact'],
+                navigation: true,
+                navigationPosition: 'right',
+                showActiveTooltip: false,
+                slidesNavigation: false,
+                slidesNavPosition: 'top',
+
+                //Scrolling
+                css3: true,
+                scrollingSpeed: 700,
+                autoScrolling: true,
+                fitToSection: true,
+                fitToSectionDelay: 1000,
+                scrollBar: false,
+                easing: 'easeInOutElastic',
+                easingcss3: 'ease',
+                loopBottom: false,
+                loopTop: false,
+                loopHorizontal: true,
+                continuousVertical: true,
+                continuousHorizontal: false,
+                scrollHorizontally: false,
+                interlockedSlides: false,
+                dragAndMove: false,
+                offsetSections: false,
+                resetSliders: false,
+                fadingEffect: false,
+                normalScrollElements: '#contact, #home',
+                scrollOverflow: false,
+                scrollOverflowReset: false,
+                scrollOverflowOptions: null,
+                touchSensitivity: 15,
+                normalScrollElementTouchThreshold: 5,
+                bigSectionsDestination: null,
+
+                //Accessibility
+                keyboardScrolling: true,
+                animateAnchor: true,
+                recordHistory: true,
+
+                //Design
+                controlArrows: true,
+                verticalCentered: true,
+                sectionsColor: ['#783CBD', '#2CFEF6'],
+                paddingTop: '2em',
+                paddingBottom: '10px',
+
+                responsiveWidth: 0,
+                responsiveHeight: 0,
+                responsiveSlides: true,
+                parallax: true,
+                parallaxOptions: {
+                    type: 'reveal',
+                    percentage: 62,
+                    property: 'translate'
+                },
+
+                //Custom selectors
+                sectionSelector: '.section',
+                slideSelector: '.slide',
+
+                lazyLoading: true,
+
+                //events
+                onLeave: function(index, nextIndex, direction) {},
+                afterLoad: function(anchorLink, index) {},
+                afterRender: function() {},
+                afterResize: function() {},
+                afterResponsive: function(isResponsive) {},
+                afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {},
+                onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {}
+            });
+        });
+    </script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.js"></script>
+</body>
+
+</html>
