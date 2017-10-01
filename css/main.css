@@ -125,6 +125,10 @@
         width: 30px;
     }
     
+    .cir-logo {
+        height: 250px;
+    }
+    
     .nav>li>a:focus,
     .nav>li>a:hover {
         text-decoration: none;
@@ -134,4 +138,59 @@
     .navbar-transparent.scrolled {
         background-color: #fff !important;
         transition: background-color 200ms linear;
+    }
+    /* Custom, iPhone Retina */
+    
+    @media only screen and (max-width: 320px) {}
+    /* Extra Small Devices, Phones */
+    
+    @media only screen and (max-width: 480px) {
+        .cir-logo {
+            height: 150px;
+            text-align: center;
+            opacity: 1;
+        }
+        .chat-logo {
+            visibility: hidden;
+        }
+    }
+    /* Small Devices, Tablets */
+    
+    @media only screen and (max-width: 768px) {
+        .cir-logo {
+            visibility: hidden !important;
+        }
+        .chat-logo {
+            visibility: visible;
+            height: 100px !important;
+            margin-top: 30%;
+            text-align: center;
+            float: right;
+            margin-right: 10px;
+        }
+    }
+    
+    @media only screen and (max-width: 568px) {
+        .cir-logo {
+            visibility: hidden !important;
+        }
+        .chat-logo {
+            visibility: visible;
+            height: 100px !important;
+            margin-top: 10%;
+            text-align: center;
+            float: right;
+            margin-right: 10px;
+        }
+    }
+    
+    @media only screen and (max-width: 668px) {
+        .chat-logo {
+            visibility: visible;
+            height: 100px !important;
+            margin-top: 30%;
+            text-align: center;
+            float: right;
+            margin-right: 10px;
+        }
     }
