@@ -84,26 +84,6 @@
     Note: Use for Parent Elements so childern can contrast
     Body
     */
-    
-    body[class*="el-bg"][class*="--cyan"] {
-        background-color: #2CFEF6 !important;
-        background: #2CFEF6 !important;
-    }
-    
-    body[class*="el-bg"][class*="--yellow"] {
-        background-color: #FFFB3A !important;
-        background: #FFFB3A !important;
-    }
-    
-    body[class*="el-bg"][class*="--white"] {
-        background-color: white !important;
-        background: #FFFB3A !important;
-    }
-    
-    body[class*="el-bg"][class*="--black"] {
-        background-color: #181616 !important;
-        background: #181616 !important;
-    }
     /* El Fill Change Classes  (SVG) */
     
     svg[class*="el-color"][class*="--purple"] {
