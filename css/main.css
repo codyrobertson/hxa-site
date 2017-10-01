@@ -6,6 +6,7 @@
     
     body {
         margin-top: 4em;
+        background-color: white;
         /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     }
     
@@ -109,6 +110,7 @@
     /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
     
     .full {
+        background: white;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
