@@ -125,7 +125,7 @@
     
     .navbar .navbar-brand .logo {
         height: auto;
-        width: 50px;
+        width: 70px;
     }
     
     .cir-logo {
@@ -185,6 +185,10 @@
             float: right;
             margin-right: 10px;
         }
+        .navbar .navbar-brand .logo {
+            height: auto;
+            width: 70px;
+        }
     }
     
     @media only screen and (max-width: 668px) {
@@ -195,5 +199,9 @@
             text-align: center;
             float: right;
             margin-right: 10px;
+        }
+        .navbar .navbar-brand .logo {
+            height: auto;
+            width: 70px;
         }
     }
