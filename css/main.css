@@ -6,6 +6,7 @@
     
     body {
         margin-top: 4em;
+        color: #504341 !important;
         background-color: white;
         /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     }
@@ -18,7 +19,7 @@
         font-family: 'Brown', helvetica, sans-serif !important;
         font-weight: 400;
         line-height: 1.45;
-        color: inherit;
+        color: #504341 !important;
     }
     
     p {
@@ -32,6 +33,7 @@
         margin: 1.414em 0 0.5em;
         font-weight: inherit;
         line-height: 1.2;
+        color: #504341 !important;
     }
     
     #menu {
@@ -42,6 +44,7 @@
         margin-top: 0;
         font-size: 3.157em;
         font-weight: bold !important;
+        color: #504341 !important;
     }
     
     h2 {
@@ -121,12 +124,13 @@
     .navbar .navbar-brand {}
     
     .navbar .navbar-brand .logo {
-        height: 30px;
-        width: 30px;
+        height: auto;
+        width: 50px;
     }
     
     .cir-logo {
         height: 250px;
+        display: block;
     }
     
     .nav>li>a:focus,
